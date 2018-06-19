@@ -58,7 +58,6 @@ function ButtonListener() {
     else {
         screen.innerText = calculatorOperations[this.getAttribute("data-val")]();
     }
-    //Instead of using id use custom attribute for buttons
     // console.log(`First Number : ${calculatorOperations.firstNum}`);
     // console.log(`Second Number : ${calculatorOperations.secondNum}`);
 }
